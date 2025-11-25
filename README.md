@@ -68,8 +68,39 @@ conda env remove --name anime-recommender
   conda info
   ```
 
-- **Update Anaconda **:
+- **Update Anaconda**:
   ```bash
   conda update conda
   ```
+
+## Project Structure
+
+```
+anime-recommender-system-or-unsupervised-learning-project/
+│
+├── data/                    # Datasets and data files
+│   └── (raw and processed data)
+│
+├── notebooks/               # Jupyter notebooks for exploration and analysis
+│   └── (analysis, EDA, model experimentation)
+│
+├── src/                     # Python scripts and modules
+│   └── (reusable functions, model classes, utilities)
+│
+├── docs/                    # Documentation
+│   └── (project documentation, API docs, etc.)
+│
+├── README.md                # Project overview and instructions
+├── requirements.txt         # Project dependencies
+└── .gitignore               # Git ignore file
+
+```
+
+### Directory Descriptions
+
+- **`/data`**: Contains datasets used for training and testing. Organize into subdirectories like `/raw` for original data and `/processed` for cleaned data.
+- **`/notebooks`**: Jupyter notebooks for data exploration, analysis, and model development. Useful for interactive development.
+- **`/src`**: Reusable Python modules and scripts including data preprocessing, model training, and utility functions.
+- **`/docs`**: Documentation files including project documentation, API references, and guides.
+- **`requirements.txt`**: Lists all Python package dependencies for easy environment reproduction.
 
